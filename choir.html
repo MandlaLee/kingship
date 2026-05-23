@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choir Ministry | Kingship Christian Centre</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <h2>Kingship Christian Centre</h2>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ministries.html">Ministries</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="page-hero choir-hero">
+        <div class="page-overlay"></div>
+
+        <div class="page-hero-content">
+            <h1>Choir Ministry</h1>
+
+            <p>
+                Worship. Excellence. Presence.
+            </p>
+        </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="section">
+
+        <div class="container">
+
+            <h2>About The Choir</h2>
+
+            <p class="page-text">
+                The Kingship Choir exists to lead people into
+                authentic worship experiences through passionate,
+                Spirit-filled music ministry.
+            </p>
+
+            <p class="page-text">
+                We are looking for committed worshippers with
+                passion, discipline, humility, and excellence.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- REQUIREMENTS -->
+    <section class="section dark-section">
+
+        <div class="container">
+
+            <h2>Audition Requirements</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Commitment</h3>
+
+                    <p>
+                        Availability for rehearsals,
+                        services, and ministry events.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Musical Ability</h3>
+
+                    <p>
+                        Vocal confidence, rhythm,
+                        harmony, and musical sensitivity.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Spiritual Growth</h3>
+
+                    <p>
+                        A heart for worship, humility,
+                        and spiritual maturity.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- AUDITION FORM -->
+    <section class="section">
+
+        <div class="container">
+
+            <div class="form-wrapper">
+
+                <div class="form-intro">
+
+                    <h2>Choir Audition Form</h2>
+
+                    <p>
+                        Submit your details and upload your
+                        audition clip below.
+                    </p>
+
+                </div>
+
+                <form id="choir-form">
+
+                    <div class="form-grid">
+
+                        <div class="input-group">
+                            <label>Full Name</label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone Number</label>
+                            <input type="tel" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Age</label>
+                            <input type="number" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Voice Type</label>
+
+                            <select required>
+                                <option value="">Select Voice Type</option>
+                                <option>Soprano</option>
+                                <option>Alto</option>
+                                <option>Tenor</option>
+                                <option>Bass</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Experience Level</label>
+
+                            <select required>
+                                <option value="">Select</option>
+                                <option>Beginner</option>
+                                <option>Intermediate</option>
+                                <option>Advanced</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="input-group">
+                        <label>Why Do You Want To Join?</label>
+
+                        <textarea
+                            rows="5"
+                            placeholder="Tell us about your passion for worship..."
+                        ></textarea>
+                    </div>
+
+                    <div class="input-group">
+
+                        <label>Upload Audio or Video Audition</label>
+
+                        <div class="upload-box">
+                            <input type="file" accept="audio/*,video/*">
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="btn primary-btn submit-btn">
+                        Submit Audition
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SUCCESS POPUP -->
+    <div class="success-popup" id="choir-popup">
+
+        <div class="popup-content">
+
+            <h2>Audition Submitted</h2>
+
+            <p>
+                Thank you for applying to the Kingship Choir.
+                Our team will contact you soon.
+            </p>
+
+            <button id="close-choir-popup" class="btn primary-btn">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <h3>Kingship Christian Centre</h3>
+
+            <p>
+                Building Kingdom Leaders Through Christ.
+            </p>
+
+            <p class="copyright">
+                © 2026 Kingship Christian Centre.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
